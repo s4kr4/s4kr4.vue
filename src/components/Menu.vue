@@ -1,8 +1,8 @@
 <template>
   <div class="menu">
     <ul>
-      <li><a href="#">GitHub</a></li>
-      <li><a href="#">Qiita</a></li>
+      <li><router-link :to="{ name: 'GitHub' }">GitHub</router-link></li>
+      <li><router-link :to="{ name: 'Qiita' }">Qiita</router-link></li>
     </ul>
   </div>
 </template>

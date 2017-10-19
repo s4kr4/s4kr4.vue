@@ -1,13 +1,19 @@
 <template>
   <div id="app">
     <img src="./assets/icon-black-250.png">
+    <Menu />
     <router-view/>
   </div>
 </template>
 
 <script>
+import Menu from './components/Menu.vue'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Menu
+  }
 }
 </script>
 
