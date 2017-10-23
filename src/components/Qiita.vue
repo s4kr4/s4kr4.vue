@@ -2,7 +2,7 @@
   <div id="qiita">
     <ul class="list">
       <li v-for="item in items">
-        <a :href="item.url" target="_blank">
+        <a :href="item.url" target="_blank" rel="noopner">
           {{ item.title }}
         </a>
       </li>

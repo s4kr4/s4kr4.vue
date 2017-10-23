@@ -2,7 +2,7 @@
   <div id="github">
     <ul class="list">
       <li v-for="repo in repos">
-        <a :href="repo.url" target="_blank">
+        <a :href="repo.url" target="_blank" rel="noopner">
           {{ repo.full_name }}
         </a>
       </li>
